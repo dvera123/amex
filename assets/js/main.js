@@ -8,5 +8,7 @@ $(document).ready(function(){
       		var id = $(this).attr("id");
       		$("."+id).hide();
       	});
+
+      	$("#table-pay-overtime").tablesorter();
       });
   });
