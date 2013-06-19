@@ -10,5 +10,15 @@ $(document).ready(function(){
       	});
 
       	$("#table-pay-overtime").tablesorter();
+
+      	$(".show-element").click(function(){
+      		var id = $(this).attr("id");
+      		$("."+id).show();
+      		$(this).hide();
+      		$("."+id).click(function(){
+      			$(this).hide();
+      			$(".show-element").show();
+      		})
+      	})
       });
   });
