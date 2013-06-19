@@ -1,1 +1,160 @@
-.hide{display:none;}
+body{
+	margin: 0;
+	padding: 0;
+}
+.hide{
+	display:none;
+}
+.side_menu{
+	top: 365px;
+	left: 0;
+	position: fixed;
+	border-left: 7px solid #001c60;
+}
+
+.side_menu ul{
+	list-style:none;
+	padding: 0;
+	float: right;
+}
+.side_menu ul li{
+	padding-left: 5px;
+}
+.side_menu ul li:nth-child(1) a {
+	background: url('../images/pot-btn-main-nav-myaccount-off.png') no-repeat;
+	display:block;
+	height:8px;
+	padding-bottom: 10px;
+	width:61px;
+}
+.side_menu ul li:nth-child(1) a:hover {
+	background: url('../images/pot-btn-main-nav-myaccount-on.png') no-repeat;
+}
+.side_menu ul li:nth-child(1) .selected {
+	background: url('../images/pot-btn-main-nav-myaccount-on.png') no-repeat;
+}
+.side_menu ul li:nth-child(2) a {
+	background: url('../images/pot-btn-main-nav-features-off.png') no-repeat;
+	display:block;
+	height:8px;
+	padding-bottom: 10px;
+	width:61px;
+}
+.side_menu ul li:nth-child(2) a:hover {
+	background: url('../images/pot-btn-main-nav-features-on.png') no-repeat;
+}
+.side_menu ul li:nth-child(2) .selected {
+	background: url('../images/pot-btn-main-nav-features-on.png') no-repeat;
+}
+.side_menu ul li:nth-child(3) a {
+	background: url('../images/pot-btn-main-nav-statement-off.png') no-repeat;
+	display:block;
+	height:8px;
+	padding-bottom: 10px;
+	width:61px;
+}
+.side_menu ul li:nth-child(3) a:hover {
+	background: url('../images/pot-btn-main-nav-statement-on.png') no-repeat;
+}
+.side_menu ul li:nth-child(3) .selected {
+	background: url('../images/pot-btn-main-nav-statement-on.png') no-repeat;
+}
+.side_menu ul li:nth-child(4) a {
+	background: url('../images/pot-btn-main-nav-faq-off.png') no-repeat;
+	display:block;
+	height:8px;
+	width:61px;
+}
+.side_menu ul li:nth-child(4) a:hover {
+	background: url('../images/pot-btn-main-nav-faq-on.png') no-repeat;
+}
+.side_menu ul li:nth-child(4) .selected {
+	background: url('../images/pot-btn-main-nav-faq-on.png') no-repeat;
+}
+.wrapper{
+	width: 1020px;
+	margin: 0 auto;
+}
+.head_ss{
+	background: url('../images/pot-hdr-main.jpg');
+	height: 460px;
+	width: 1020px;
+}
+.customer_gold_ss{
+	background: url('../images/pot-img-goldcard-name.jpg');
+	height: 83px;
+	width: 1020px;
+}
+.customer_gold_ss #card_platinum{
+	margin-top: 20px;
+	float: left;
+	height: 36px;
+	width: 59px;
+	margin-left: 598px;
+	cursor: pointer;
+}
+.customer_platinum_ss{
+	background: url('../images/pot-img-platcard-name.jpg');
+	height: 83px;
+	width: 1020px;
+}
+.customer_platinum_ss #card_gold{
+	margin-top: 20px;
+	float: left;
+	height: 36px;
+	width: 59px;
+	margin-left: 519px;
+	cursor: pointer;
+}
+.customer_card_gold_info_ss{
+	background: url('../images/pot-img-goldcard-info.jpg');
+	height: 377px;
+	width: 1020px;
+}
+.customer_card_gold_info_ss .dots{
+	float: right;
+	width: 10px;
+	height: 10px;
+}
+.customer_card_platinum_info_ss{
+	background: url('../images/pot-img-platcard-info.jpg');
+	height: 377px;
+	width: 1020px;
+}
+.customer_card_platinum_info_ss .dots{
+	float: right;
+	width: 10px;
+	height: 10px;
+}
+.features_title_ss{
+	background: url('../images/pot-img-features-hdr.jpg');
+	height: 57px;
+	width: 1020px;
+}
+.features_info_ss{
+	background: url('../images/pot-img-features-info.jpg');
+	height: 626px;
+	width: 1020px;
+}
+.statement_ss{
+	background: url('../images/pot-img-sample-statement-hdr.jpg');
+	height: 57px;
+	width: 1020px;
+}
+.statement_info_ss{
+	background: url('../images/pot-img-sample-statement-info.jpg');
+	height: 1052px;
+	width: 1020px;
+}
+.statement_info_ss .dots{
+	background: url('../images/pot-img-sample-statement-dot-off.png');
+	clear:both;
+	display:block;
+	float:left;
+	height: 22px;
+	width: 22px;
+}
+.statement_info_ss .dots:hover{
+	background: url('../images/pot-img-sample-statement-dot-on.png');	
+}
+
