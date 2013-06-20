@@ -220,6 +220,9 @@ body{
 .dots_custom{
 	position: absolute;
 }
+.dots_content{
+	z-index: 100;
+}
 .map01{
 	margin: 272px 309px 0px 0px;
 }
