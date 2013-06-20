@@ -1,7 +1,7 @@
 $(document).ready(function(){
       $("#modals").load("modals/modals.html");
       //active the modal view 
-      $(".btn").click(function(){
+      $(".select_charges").click(function(){
       	//enables the tooltip for the modal
       	$('.atooltip').mouseover(function(){
       		var id = $(this).attr("id");

@@ -2,8 +2,10 @@
 <html>
 	<head>
 		<script type="text/javascript" src="assets/js/libs/jquery-1.10.js"></script>
+		<script type="text/javascript" src="assets/js/modal.js"></script>
 		<script type="text/javascript" src="assets/js/main.js"></script>
 		<script type="text/javascript" src="assets/js/dots-popups.js"></script>
+		<link rel="stylesheet" type="text/css" href="assets/css/modal.css" />
 		<link rel="stylesheet" type="text/css" href="assets/css/main.css" />
 	</head>
 	<body>
@@ -36,7 +38,7 @@
 				<div class="features_title_ss_ns"></div>
 				<div class="features_info_ss">
 					<div class="check_availability map03 link1"></div>
-					<div class="select_charges map04"></div>
+					<div class="select_charges map04" data-toggle="modal" href="#myModal"></div>
 					<div class="check_availability  dots_s map05">
 						<div class="dots_s_content map06">
 							<a href="javascript:void(0)" class="close_x map07"></a>
@@ -134,5 +136,6 @@
 				</div>
 			</nav>
 		</div>
+		<div id="modals"></div>
 	</body>
 </html>
