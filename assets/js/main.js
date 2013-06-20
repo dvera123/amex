@@ -10,24 +10,26 @@ $(document).ready(function(){
       		var id = $(this).attr("id");
       		$("."+id).hide();
       	});
-      	//enables the sort of the tables
-      	$("#table-pay-overtime").tablesorter();
-      	//enables first three elements of the table
-      	$("#table-pay-overtime tbody tr").each(function(i){
-      		if(i>2){
-	      		$(this).find("td").each(function(i){
-	      			if(i==0){
-	      				$(this).find("input").attr("disabled","disabled");
-	      			}
-	      		});
-	      	}
+      	//click for selects
+      	$(".select").click(function(){
+      		if($(this).hasClass("checked")){
+      			$(this).removeClass("checked");
+      			$(this).css("background",'url("assets/images/s&pl-checkbox-off.png")');
+      		}else{
+      			$(this).addClass("checked");
+      			$(this).css("background",'url("assets/images/s&pl-checkbox-on.png")');
+      		}
       	});
+
       	//click for continue button
       	$("#continue").click(function(){
-      		var n = $("input:checked").length;
+      		var n = $(".checked").length;
       		if(n > 0){
       			$("#first-body").hide();
       			$("#second-body").show();
+      			$(".modal-footer").hide();
+      			$(".bttm").hide();
+      			$(".bttm1").show();
       		}
       	});
       	$("#submit").click(function(){
@@ -37,6 +39,9 @@ $(document).ready(function(){
       	$("#back").click(function(){
       		$("#first-body").show();
       		$("#second-body").hide();
+      		$(".modal-footer").show();
+      		$(".bttm").show();
+      		$(".bttm1").hide();
       	});
       	//enables the drawer on the footer
       	$(".show-element").click(function(){
