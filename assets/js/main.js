@@ -65,7 +65,7 @@ $(document).ready(function(){
     	  account_header.removeClass('customer_platinum_ss');
     	  account_header.addClass('customer_gold_ss');
     	  
-      })
+      });
       $('#card_platinum').click(function(){
     	  var account_info, account_header;
     	  account_info = $('.account_info');
@@ -75,5 +75,28 @@ $(document).ready(function(){
     	  account_header.removeClass('customer_gold_ss');
     	  account_header.addClass('customer_platinum_ss');
     	  
-      })
+      });
+      // change statement
+      $('.p_statement').click(function(){
+    	  var statement_info, statement_header;
+    	  statement_header = $('.statement_header');
+    	  statement_info_ss = $('.statement_info_ss');
+    	  statement_info_sp = $('.statement_info_sp');
+    	  statement_header.removeClass('statement_ss');
+    	  statement_header.addClass('statement_sp');
+    	  statement_info_ss.hide();
+    	  statement_info_sp.show();
+    	  
+      });
+      $('.e_statement').click(function(){
+    	  var statement_info, statement_header;
+    	  statement_header = $('.statement_header');
+    	  statement_info_ss = $('.statement_info_ss');
+    	  statement_info_sp = $('.statement_info_sp');
+    	  statement_header.removeClass('statement_sp');
+    	  statement_header.addClass('statement_ss');
+    	  statement_info_sp.hide();
+    	  statement_info_ss.show();
+      });
+      
   });

@@ -1,0 +1,98 @@
+body{
+	margin: 0;
+}
+.wrapper{
+	width: 1024px;
+	margin: 0 auto;
+}
+.side_menu{
+	top: 150px;
+	left: 0;
+	position: fixed;
+	border-left: 10px solid blue;
+}
+
+.side_menu ul{
+	list-style:none;
+	padding: 0;
+	float: right;
+}
+.side_menu ul li{
+	padding-left: 5px;
+}
+.menu{
+	width:100%;
+	height: auto;
+	background-color: red;
+	display: inline-block;
+}
+.menu .logo{
+	background-color: gray;
+	height: 40px;
+	width: 40px;
+	float: left;
+}
+.menu .menu_items{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	float: left;
+	list-style:none;
+	width:40%;
+}
+.menu .menu_items li{
+	float: left;
+	font-size: 12px;
+	margin: 5px 0px 0px 10px;
+}
+.menu .search{
+	background-color: gray;
+	height: 40px;
+	width: 150px;
+	float: right;
+}
+
+.presenter{
+	width:100%;
+	height: auto;
+	background-color: silver;
+	margin: 0 auto;
+	padding: 0;
+	clear: both;
+}
+.presenter .presenter_title{
+	padding: 80px 30% 0px 10%;
+	margin: 0px;
+	font-size: 60px;
+}
+.presenter .presenter_subtitle{
+	font-size: 21px;
+	padding: 0px 31% 0px 10%;
+	margin: 0px;
+}
+.customer_info{
+	margin: 40px 0px 0px 0px;
+	width: 100%;
+	height: auto;
+}
+.customer_info dl{
+	float: left;
+}
+.customer_info dl dd{
+	padding: 0;
+	margin: 0;
+}
+.customer_info .customer_cards{
+	float: left;
+	list-style:none;
+}
+.customer_info .customer_cards li{
+	float: left;
+	margin: 5px;
+	cursor: pointer;
+}
+.clear{
+	clear: both;
+}
+.hide{
+	display:none;
+}
