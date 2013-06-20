@@ -56,9 +56,14 @@ $(document).ready(function(){
       });
       
       // set active links
-      $('.side_menu ul').children().find('a').click(function(){
-    	  $('.side_menu ul').children().find('a').removeClass('selected');
-    	  $(this).addClass('selected');
+      $('.side_menu ul').children().find('a').click(function(e){
+    	  var a, offset;
+    	  a =$(this).attr('href');
+    	  offset = $(a).offset();
+    	  e.preventDefault();
+
+    	  $('html, body').animate({scrollTop : offset.top},'slow');
+    	  //$(this).addClass('selected');
       });
       // change card info
       $('#card_gold').click(function(){
