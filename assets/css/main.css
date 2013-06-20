@@ -11,7 +11,6 @@ body{
 	position: fixed;
 	border-left: 7px solid #001c60;
 }
-
 .side_menu ul{
 	list-style:none;
 	padding: 0;
@@ -75,6 +74,17 @@ body{
 	width: 1020px;
 	margin: 0 auto;
 }
+.head_ss_ns{
+	background: url('../images/pot-hdr-nonsecure-main.jpg');
+	height: 460px;
+	width: 1020px;
+}
+.head_ss_ns .show_cards{
+	cursor: pointer;
+	float: left;
+	height: 32px;
+	width: 189px;
+}
 .head_ss{
 	background: url('../images/pot-hdr-main.jpg');
 	height: 460px;
@@ -128,6 +138,11 @@ body{
 }
 .features_title_ss{
 	background: url('../images/pot-img-features-hdr.jpg');
+	height: 57px;
+	width: 1020px;
+}
+.features_title_ss_ns{
+	background: url('../images/pot-img-features-nonsecure-hdr.jpg');
 	height: 57px;
 	width: 1020px;
 }
@@ -270,5 +285,8 @@ body{
 }
 .map23{
 	margin: 39px 0px 0px 191px;
+}
+.map24{
+	margin: 409px 0px 0px 118px;
 }
 
