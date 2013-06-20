@@ -96,10 +96,6 @@
   margin-left: 0;
 }
 
-#first-body{
-  overflow: hidden;
-  position: absolute;
-}
 
 .tooltip-container{
   position:absolute;
@@ -145,6 +141,7 @@
   height: 31px;
   position:relative;
   bottom: 30px;
+  right: 47px;
   cursor: pointer;
 }
 
@@ -174,7 +171,7 @@
 .selects{
   position: absolute;
   top:290px;
-  left: 20px;
+  left: 65px;
 }
 
 .select{
