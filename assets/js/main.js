@@ -49,4 +49,31 @@ $(document).ready(function(){
       		})
       	})
       });
+      
+      // set active links
+      $('.side_menu ul').children().find('a').click(function(){
+    	  $('.side_menu ul').children().find('a').removeClass('selected');
+    	  $(this).addClass('selected');
+      });
+      // change card info
+      $('#card_gold').click(function(){
+    	  var account_info, account_header;
+    	  account_info = $('.account_info');
+    	  account_header = $('.account_header');
+    	  account_info.removeClass('customer_card_platinum_info_ss');
+    	  account_info.addClass('customer_card_gold_info_ss');
+    	  account_header.removeClass('customer_platinum_ss');
+    	  account_header.addClass('customer_gold_ss');
+    	  
+      })
+      $('#card_platinum').click(function(){
+    	  var account_info, account_header;
+    	  account_info = $('.account_info');
+    	  account_header = $('.account_header');
+    	  account_info.removeClass('customer_card_gold_info_ss');
+    	  account_info.addClass('customer_card_platinum_info_ss');
+    	  account_header.removeClass('customer_gold_ss');
+    	  account_header.addClass('customer_platinum_ss');
+    	  
+      })
   });
