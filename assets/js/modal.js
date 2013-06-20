@@ -21,8 +21,18 @@
     , show: function () {
         var that = this
           , e = $.Event('show')
+          , marginLeft = '-'+(that.$element.width())/2
+          , marginTop = '-'+(that.$element.height())/2
+          , left = 50+'%'
+          , top = 50+'%'
+          , myModal = $('.modal');
 
         this.$element.trigger(e)
+        
+        myModal.css('left', left);
+        myModal.css('margin-left', marginLeft+'px');
+
+        
 
         if (this.isShown || e.isDefaultPrevented()) return
 
