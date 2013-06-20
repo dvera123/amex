@@ -136,6 +136,18 @@ body{
 	height: 626px;
 	width: 1020px;
 }
+.features_info_ss .check_availability , .select_charges{
+	clear: both;
+	cursor:pointer;
+	float:left;
+	height: 25px;
+	width: 134px;
+}
+.features_info_ss .close_x{
+	height: 9px;
+	position: absolute;
+	width: 8px;
+}
 .statement_ss{
 	background: url('../images/pot-img-sample-statement-hdr.jpg');
 	height: 57px;
@@ -156,5 +168,30 @@ body{
 }
 .statement_info_ss .dots:hover{
 	background: url('../images/pot-img-sample-statement-dot-on.png');	
+}
+
+.map01{
+	margin: 272px 309px 0px 0px;
+}
+.map02{
+	margin:-90px 0px 0px -390px;
+}
+.map03{
+	margin: 175px 0px 0px 389px;
+}
+.map04{
+	margin:134px 0px 0px 389px;
+}
+.map05{
+	margin:134px 0px 0px 389px;
+}
+.map06{
+	margin: -2px 0px 0px 183px;
+}
+.map07{
+	margin: 13px 0px 0px 213px;
+}
+.map08{
+	
 }
 
