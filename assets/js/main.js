@@ -101,9 +101,12 @@ $(document).ready(function(){
       //on click events
       $('.link1').click(function(){
     	  location.href='https://online.americanexpress.com/myca/logon/us/action?request_type=LogonHandler&Face=en_US&DestPage=https%3A%2F%2Fonline.americanexpress.com%2Fmyca%2Flending%2Fenroll%2Fus%2Faction%3Frequest_type%3Dauthreg_LendingEnroll%26intlink%3Dus-CCSG-LOCeligible%26srcCd%3DNJA';
+<<<<<<< HEAD
       });
       $('.show_cards').click(function(){
     	  location.href='https://online.americanexpress.com/myca/logon/us/action?request_type=LogonHandler&Face=en_US&DestPage=https%3A%2F%2Fonline.americanexpress.com%2Fmyca%2Flending%2Fenroll%2Fus%2Faction%3Frequest_type%3Dauthreg_LendingEnroll%26intlink%3Dus-CCSG-LOCeligible%26srcCd%3DNJA';
+=======
+>>>>>>> branch 'master' of https://github.com/dvera123/amex.git
       });
       
   });
