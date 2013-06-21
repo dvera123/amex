@@ -232,6 +232,13 @@ body{
 	height: 17px;
 }
 
+#faq{
+	width:150px;
+	height: 10px;
+	position: relative;
+	bottom: 320px;
+}
+
 .dots_custom{
 	position: absolute;
 }
