@@ -18,6 +18,8 @@ $(document).ready(function(){
       		}else{
       			$(this).addClass("checked");
       			$(this).css("background",'url("assets/images/s&pl-checkbox-on.png")');
+            $(".terms").show();
+            $(".error").hide();
       		}
       	});
 
@@ -30,7 +32,10 @@ $(document).ready(function(){
       			$(".modal-footer").hide();
       			$(".bttm").hide();
       			$(".bttm1").show();
-      		}
+      		}else{
+            $(".terms").hide();
+            $(".error").show();
+          }
       	});
       	$("#submit").click(function(){
       		$("#second-body").hide();
