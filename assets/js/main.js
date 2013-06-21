@@ -5,10 +5,10 @@ $(document).ready(function(){
       	//enables the tooltip for the modal
       	$('.atooltip').mouseover(function(){
       		var id = $(this).attr("id");
-      		$("."+id).show();
+      		$("."+id).fadeIn(500);
       	}).mouseout(function(){
       		var id = $(this).attr("id");
-      		$("."+id).hide();
+      		$("."+id).fadeOut(500);
       	});
       	//click for selects
       	$(".select").click(function(){
