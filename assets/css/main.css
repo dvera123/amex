@@ -163,6 +163,12 @@ body{
 	position: absolute;
 	width: 8px;
 }
+
+.features_info_ss .close_x_l{
+	height: 20px;
+	position: absolute;
+	width: 20px;
+}
 .statement_ss{
 	background: url('../images/pot-img-sample-statement-hdr.jpg');
 	height: 57px;
@@ -217,6 +223,15 @@ body{
 	height: 20px;
 	width: 130px;
 }
+
+.learn{
+	clear: both;
+	cursor:pointer;
+	float:left;
+	width:70px;
+	height: 17px;
+}
+
 .dots_custom{
 	position: absolute;
 }
@@ -236,7 +251,7 @@ body{
 	margin: 134px 0px 0px 389px;
 }
 .map05{
-	margin: 134px 0px 0px 389px;
+	margin: 85px 0px 0px 389px;
 }
 .map06{
 	margin: -2px 0px 0px 183px;
@@ -302,6 +317,15 @@ body{
 	margin: -101px 0px 0px 35px;
 }
 
+.map27{
+	margin: 30px 0px 0px 178px;
+}
+.map28{
+	margin: -200px 0px 0px 183px;
+}
+.map29{
+	margin: 5px 0px 0px 690px;
+}
 .map30{
 	margin: 272px 198px 0px 0px;
 }
