@@ -240,3 +240,7 @@
 .error img{
   margin-top:50px;
 }
+
+.modal-open, .modal,.btn:focus{
+    outline:none!important;
+}
