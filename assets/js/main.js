@@ -110,6 +110,8 @@ $(document).ready(function(){
         var a, offset;
         a = $(this).parent().attr('href');
         offset = $(a).offset();
+        e.preventDefault();
+
         $('html, body').animate({scrollTop : offset.top},1500);
       });
       // change card info

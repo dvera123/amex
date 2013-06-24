@@ -255,6 +255,11 @@ body{
 	
 }
 
+.ext_link a{
+	width:100%;
+	height: 100%;
+}
+
 .sel_link{
 	width: 130px;
 	height: 20px;
