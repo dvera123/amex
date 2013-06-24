@@ -150,6 +150,7 @@
 }
 
 #works{
+  cursor:pointer;
   position: relative;
   top: 20px;
   left: 47px;
@@ -244,3 +245,5 @@
 .modal-open, .modal,.btn:focus{
     outline:none!important;
 }
+
+

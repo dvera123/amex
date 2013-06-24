@@ -239,6 +239,54 @@ body{
 	bottom: 320px;
 }
 
+#extend{
+	width: 10px;
+	height: 10px;
+	position:relative;
+	bottom: 590px;
+}
+
+.ext_link{
+	width: 180px;
+	height: 20px;
+	position: relative;
+	top: 183px;
+	left: 390px;
+	
+}
+
+.sel_link{
+	width: 130px;
+	height: 20px;
+	position: relative;
+	top: 163px;
+	left: 598px;
+	
+}
+
+.sin_link{
+	width: 100px;
+	height: 20px;
+	position:relative;
+	top: 143px;
+	left: 750px;
+	
+}
+
+#select{
+	width:10px;
+	height: 10px;
+	position: relative;
+	bottom: 410px;
+}
+
+#sign{
+	width:10px;
+	height: 10px;
+	position: relative;
+	bottom: 260px;
+}
+
 .dots_custom{
 	position: absolute;
 }

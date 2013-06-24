@@ -48,14 +48,39 @@ $(document).ready(function(){
       		$(".bttm").show();
       		$(".bttm1").hide();
       	});
+        $("#close").click(function(){
+          $("#third-body").hide();
+          $("#first-body").show();
+          $("#second-body").hide();
+          $(".modal-footer").show();
+          $(".bttm").show();
+          $(".bttm1").hide();
+        });
+        $(".x").click(function(){
+          $("#third-body").hide();
+          $("#first-body").show();
+          $("#second-body").hide();
+          $(".modal-footer").show();
+          $(".bttm").show();
+          $(".bttm1").hide();
+        });
+        $(".ext_link_modal").click(function(){
+          $("#third-body").hide();
+          $("#first-body").show();
+          $("#second-body").hide();
+          $(".modal-footer").show();
+          $(".bttm").show();
+          $(".bttm1").hide();
+        });
+
       	//enables the drawer on the footer
       	$(".show-element").click(function(){
       		var id = $(this).attr("id");
-      		$("."+id).show();
+      		$("."+id).show("slow");
       		$(this).hide();
       		$("."+id).click(function(){
-      			$(this).hide();
-      			$(".show-element").show();
+      			$(this).hide("slow");
+      			$(".show-element").show("slow");
       		})
       	})
       });
