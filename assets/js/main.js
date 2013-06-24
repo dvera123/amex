@@ -12,6 +12,7 @@ $(document).ready(function(){
       	});
       	//click for selects
       	$(".select").click(function(){
+          console.log("click select")
       		if($(this).hasClass("checked")){
       			$(this).removeClass("checked");
       			$(this).css("background",'url("assets/images/s&pl-checkbox-off.png")');
@@ -55,6 +56,9 @@ $(document).ready(function(){
           $(".modal-footer").show();
           $(".bttm").show();
           $(".bttm1").hide();
+          $(".select").unbind("click");
+          $(".select").removeClass("checked");
+          $(".select").css("background",'url("assets/images/s&pl-checkbox-off.png")');
         });
         $(".x").click(function(){
           $("#third-body").hide();
@@ -63,6 +67,9 @@ $(document).ready(function(){
           $(".modal-footer").show();
           $(".bttm").show();
           $(".bttm1").hide();
+          $(".select").unbind("click");
+          $(".select").removeClass("checked");
+          $(".select").css("background",'url("assets/images/s&pl-checkbox-off.png")');
         });
         $(".ext_link_modal").click(function(){
           $("#third-body").hide();
@@ -71,6 +78,9 @@ $(document).ready(function(){
           $(".modal-footer").show();
           $(".bttm").show();
           $(".bttm1").hide();
+          $(".select").unbind("click");
+          $(".select").removeClass("checked");
+          $(".select").css("background",'url("assets/images/s&pl-checkbox-off.png")');
         });
 
       	//enables the drawer on the footer
@@ -94,6 +104,13 @@ $(document).ready(function(){
 
     	  $('html, body').animate({scrollTop : offset.top},'slow');
     	  //$(this).addClass('selected');
+      });
+
+      $('.link_nav').click(function(e){
+        var a, offset;
+        a = $(this).parent().attr('href');
+        offset = $(a).offset();
+        $('html, body').animate({scrollTop : offset.top},1500);
       });
       // change card info
       $('#card_gold').click(function(){
